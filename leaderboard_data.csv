@@ -1,0 +1,21 @@
+Model,Quantization,GPUs,CPUs,RAM GB,Context Length,Total Tokens,Duration (sec),Tokens/sec,Time to Retrieve (sec),Start Type,GPU Max Power (W),Server Name,Test Link
+LLaMA 3.1 8B,q4_0,"1x GTX 1050Ti 4ГБ",Intel i7,32,4000,243,37.38,6.50,105.62,Cold,-,pasha-lt,
+LLaMA 3.1 8B,q4_0,"1x GTX 1050Ti 4ГБ",Intel i7,32,4000,248,38.20,6.49,38.48,Warm,-,pasha-lt,
+LLaMA 3.1 8B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,234,6.03,38.83,9.27,Cold,-,gpu01,
+LLaMA 3.1 8B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,303,7.82,38.73,7.97,Warm,-,gpu01,
+LLaMA 3.1 70B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,500,608.09,0.82,628.27,Cold,-,gpu01,
+LLaMA 3.1 70B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,500,608.47,0.82,609.85,Warm,-,gpu01,
+LLaMA 3.1 8B,q4_0,"1x RTX 4090 24ГБ","Ryzen 9 5950x",128,4000,282,1.95,144.66,44.73,Cold,-,gpu02,
+LLaMA 3.1 8B,q4_0,"1x RTX 4090 24ГБ","Ryzen 9 5950x",128,4000,316,2.19,144.62,2.32,Warm,-,gpu02,
+LLaMA 3.1 70B,q4_0,"1x RTX 4090 24ГБ","Ryzen 9 5950x",128,4000,500,308.62,1.62,412.98,Cold,-,gpu02,
+LLaMA 3.1 70B,q4_0,"1x RTX 4090 24ГБ","Ryzen 9 5950x",128,4000,500,297.64,1.68,305.18,Cold,-,gpu02,
+LLaMA 3.1 70B,q4_0,"1x RTX 4090 24ГБ","Ryzen 9 5950x",128,4000,500,297.75,1.68,298.44,Warm,-,gpu02,
+LLaMA 3.1 8B Instruct,fp16,"1x Tesla P40 24ГБ",-, -,4000,229,14.26,16.06,38.33,-,135,-,https://t.me/evilfreelancer_chat/73576
+LLaMA 3.1 8B,q4_0,"1x Tesla P40 24ГБ",-, -,4000,345,8.39,41.14,8.54,-,135,-,https://t.me/evilfreelancer_chat/73622
+LLaMA 3.1 8B,q4_0,"1x Tesla P40 24ГБ",-, -,4000,225,5.07,44.39,7.74,-,250,-,https://t.me/evilfreelancer_chat/73668
+LLaMA 3.1 8B,q4_0,"1x RTX 4060 8ГБ",Intel i7,-,4000,471,10.15,46.40,15.33,-,-,Windows 10,https://t.me/evilfreelancer_chat/73684
+Aya 35B,q4_K_M,"1x Tesla P40 24ГБ",-, -,4000,300,30.32,9.90,39.38,-,-,-,https://t.me/evilfreelancer_chat/73749
+Aya 35B,q4_K_M,"3x RTX 4060 8ГБ",-, -,4000,327,28.23,11.59,38.81,Cold,-,-,https://t.me/evilfreelancer_chat/73748
+Aya 35B,q4_K_M,"3x RTX 4060 8ГБ",-, -,4000,324,27.93,11.60,28.22,Warm,-,-,https://t.me/evilfreelancer_chat/73748
+Aya 35B,q4_K_M,"3x RTX 4060 8ГБ",-, -,200,307,26.39,11.63,45.27,-,-,-,https://t.me/evilfreelancer_chat/73762
+Aya 35B,q4_K_M,"1x RTX 4090 24ГБ",-,128,200,325,8.46,38.44,13.19,Cold,-,-,https://t.me/evilfreelancer_chat/73763

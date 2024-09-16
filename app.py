@@ -3,12 +3,12 @@ import pandas as pd
 from datasets import load_dataset
 
 # Загрузка датасетов с Hugging Face
-benchmark_dataset = load_dataset("evilfreelancer/leaderboard-dataset", split="test")
-server_dataset = load_dataset("evilfreelancer/leaderboard-dataset", split="server")
+benchmark_dataset = load_dataset("evilfreelancer/msnp-tests", split="train")
+# server_dataset = load_dataset("evilfreelancer/msnp-servers", split="train")
 
 # Преобразование в DataFrame
 df_benchmark = pd.DataFrame(benchmark_dataset)
-df_server = pd.DataFrame(server_dataset)
+df_server = pd.read_csv('server_specs.csv')
 
 # Объединение данных по названию сервера
 df = pd.merge(df_benchmark, df_server, left_on="Server Name", right_on="Server Name", how="left")

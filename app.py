@@ -48,9 +48,9 @@ st.header("Опции сортировки")
 sort_by = st.selectbox(
     "Сортировать по:",
     options=filtered_df.columns,
-    index=filtered_df.columns.get_loc("Duration (sec)")
+    index=filtered_df.columns.get_loc("Tokens/sec")
 )
-ascending = st.radio("Порядок:", ("Возрастание", "Убывание")) == "Возрастание"
+ascending = st.radio("Порядок:", ("Возрастание", "Убывание")) == "Убывание"
 
 # Отображение таблицы
 st.dataframe(filtered_df.sort_values(by=sort_by, ascending=ascending).reset_index(drop=True))

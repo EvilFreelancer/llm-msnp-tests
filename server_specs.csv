@@ -8,4 +8,5 @@ gpu02,1x Ryzen 9 5950X,128,1x RTX 4090 24GB,"-","-",1200
 pasha-lt,1x Intel i7,32,1x GTX 1050Ti 4GB,"-","-",120
 sn01,1x Intel i7,16,1x RTX 4060 16GB,-,-,-
 sn02,2х Xeon E5-2690 v1,128,3х RTX 4060 16GB,-,-,-
-mn1,1x i9-13900KF,-,1x RTX 8000,-,-,-
+mn1,1x i9-13900KF,-,1x RTX 8000 48GB,-,-,-
+mn2,-,-,4x RTX 4090 24GB,-,-,-

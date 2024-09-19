@@ -1,31 +1,35 @@
 Model,Quantization,GPUs,CPUs,RAM GB,Context Length,Total Tokens,Duration (sec),Tokens/sec,Time to Retrieve (sec),Start Type,GPU Max Power (W),Server Name,Test Link
-LLaMA 3.1 8B,q4_0,"1x GTX 1050Ti 4ГБ","1x Intel i7",32,4000,243,37.38,6.50,105.62,Cold,-,pasha-lt,-
-LLaMA 3.1 8B,q4_0,"1x GTX 1050Ti 4ГБ","1x Intel i7",32,4000,248,38.20,6.49,38.48,Warm,-,pasha-lt,-
-LLaMA 3.1 8B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,234,6.03,38.83,9.27,Cold,-,gpu01,-
-LLaMA 3.1 8B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,303,7.82,38.73,7.97,Warm,-,gpu01,-
-LLaMA 3.1 70B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,500,608.09,0.82,628.27,Cold,-,gpu01,-
-LLaMA 3.1 70B,q4_0,"1x RTX 3050 8ГБ","2x Xeon 2960v2",128,4000,500,608.47,0.82,609.85,Warm,-,gpu01,-
-LLaMA 3.1 8B,q4_0,"1x RTX 4090 24ГБ","1x Ryzen 9 5950x",128,4000,282,1.95,144.66,44.73,Cold,-,gpu02,-
-LLaMA 3.1 8B,q4_0,"1x RTX 4090 24ГБ","1x Ryzen 9 5950x",128,4000,316,2.19,144.62,2.32,Warm,-,gpu02,-
-LLaMA 3.1 70B,q4_0,"1x RTX 4090 24ГБ","1x Ryzen 9 5950x",128,4000,500,308.62,1.62,412.98,Cold,-,gpu02,-
-LLaMA 3.1 70B,q4_0,"1x RTX 4090 24ГБ","1x Ryzen 9 5950x",128,4000,500,297.64,1.68,305.18,Cold,-,gpu02,-
-LLaMA 3.1 70B,q4_0,"1x RTX 4090 24ГБ","1x Ryzen 9 5950x",128,4000,500,297.75,1.68,298.44,Warm,-,gpu02,-
-LLaMA 3.1 8B Instruct,fp16,"1x Tesla P40 24ГБ",1x Xeon E5-2680 v4,128,4000,229,14.26,16.06,38.33,-,135,nn01,https://t.me/evilfreelancer_chat/73576
-LLaMA 3.1 8B,q4_0,"1x Tesla P40 24ГБ",1x Xeon E5-2680 v4,128,4000,345,8.39,41.14,8.54,-,135,nn01,https://t.me/evilfreelancer_chat/73622
-LLaMA 3.1 8B,q4_0,"1x Tesla P40 24ГБ",1x Xeon E5-2680 v4,128,4000,225,5.07,44.39,7.74,-,250,nn01,https://t.me/evilfreelancer_chat/73668
-LLaMA 3.1 8B,q4_0,1x RTX 4060 16ГБ,1x Intel i7,16,4000,471,10.15,46.40,15.33,-,-,sn01,https://t.me/evilfreelancer_chat/73684
-Aya 35B,q4_K_M,"1x Tesla P40 24ГБ",1x Xeon E5-2680 v4,128,200,300,30.32,9.90,39.38,-,-,nn01,https://t.me/evilfreelancer_chat/73749
-Aya 35B,q4_K_M,3x RTX 4060 16ГБ,2х Xeon E5-2690 v1,128,4000,327,28.23,11.59,38.81,Cold,-,sn02,https://t.me/evilfreelancer_chat/73748
-Aya 35B,q4_K_M,3x RTX 4060 16ГБ,2х Xeon E5-2690 v1,128,4000,324,27.93,11.60,28.22,Warm,-,sn02,https://t.me/evilfreelancer_chat/73748
-Aya 35B,q4_K_M,3x RTX 4060 16ГБ,2х Xeon E5-2690 v1,128,200,307,26.39,11.63,45.27,-,-,sn02,https://t.me/evilfreelancer_chat/73762
-Aya 35B,q4_K_M,"1x RTX 4090 24ГБ","1x Ryzen 9 5950x",128,200,325,8.46,38.44,13.19,Cold,-,gpu02,https://t.me/evilfreelancer_chat/73763
-LLaMA 3.1 8B,q4_0,1x RTX 8000,1x i9-13900KF,-,-,-,-,13.1,-,-,-,mn1,https://t.me/evilfreelancer_chat/74682
-LLaMA 3.1 70B,q4_0,1x RTX 8000,1x i9-13900KF,-,-,-,-,90,-,-,-,mn1,https://t.me/evilfreelancer_chat/74682
-Mistral Small 22B,q4_0,1x RTX 4060 16ГБ,1x Intel i7,16,200,500,24.28,20.59,29.88,Cold,-,sn01,-
-Mistral Small 22B,q4_0,1x RTX 4060 16ГБ,1x Intel i7,16,200,500,24.22,20.63,24.42,Warm,-,sn01,-
-Mistral Small 22B,q4_0,1x RTX 4090 24ГБ,1x Ryzen 9 5950x,128,200,500,8.24,60.63,10.16,Cold,-,-,https://t.me/evilfreelancer_chat/75209
-Mistral Small 22B,q4_0,1x RTX 4090 24ГБ,1x Ryzen 9 5950x,128,200,500,8.24,60.6,8.36,Warm,-,-,https://t.me/evilfreelancer_chat/75209
-Mixtral 8x7B,q4_0,3x RTX 4060 16ГБ,2х Xeon E5-2690 v1,128,200,367,11.77,31.16,119.34,Cold,-,-,https://t.me/evilfreelancer_chat/75228
-Mixtral 8x7B,q4_0,3x RTX 4060 16ГБ,2х Xeon E5-2690 v1,128,200,471,15.09,31.19,15.28,Warm,-,-,https://t.me/evilfreelancer_chat/75228
-Mixtral 8x7B,q4_0,1x RTX 4090 24ГБ,1x Ryzen 9 5950x,128,200,313,15.2,20.58,20.11,Cold,,,
-Mixtral 8x7B,q4_0,1x RTX 4090 24ГБ,1x Ryzen 9 5950x,128,200,500,24.42,20.47,24.76,Warm,,,
+LLaMA 3.1 8B,q4_0,"1x GTX 1050Ti 4GB","1x Intel i7",32,4000,243,37.38,6.50,105.62,Cold,-,pasha-lt,-
+LLaMA 3.1 8B,q4_0,"1x GTX 1050Ti 4GB","1x Intel i7",32,4000,248,38.20,6.49,38.48,Warm,-,pasha-lt,-
+LLaMA 3.1 8B,q4_0,"1x RTX 3050 8GB","2x Xeon 2960v2",128,4000,234,6.03,38.83,9.27,Cold,-,gpu01,-
+LLaMA 3.1 8B,q4_0,"1x RTX 3050 8GB","2x Xeon 2960v2",128,4000,303,7.82,38.73,7.97,Warm,-,gpu01,-
+LLaMA 3.1 70B,q4_0,"1x RTX 3050 8GB","2x Xeon 2960v2",128,4000,500,608.09,0.82,628.27,Cold,-,gpu01,-
+LLaMA 3.1 70B,q4_0,"1x RTX 3050 8GB","2x Xeon 2960v2",128,4000,500,608.47,0.82,609.85,Warm,-,gpu01,-
+LLaMA 3.1 8B,q4_0,"1x RTX 4090 24GB","1x Ryzen 9 5950x",128,4000,282,1.95,144.66,44.73,Cold,-,gpu02,-
+LLaMA 3.1 8B,q4_0,"1x RTX 4090 24GB","1x Ryzen 9 5950x",128,4000,316,2.19,144.62,2.32,Warm,-,gpu02,-
+LLaMA 3.1 70B,q4_0,"1x RTX 4090 24GB","1x Ryzen 9 5950x",128,4000,500,308.62,1.62,412.98,Cold,-,gpu02,-
+LLaMA 3.1 70B,q4_0,"1x RTX 4090 24GB","1x Ryzen 9 5950x",128,4000,500,297.64,1.68,305.18,Cold,-,gpu02,-
+LLaMA 3.1 70B,q4_0,"1x RTX 4090 24GB","1x Ryzen 9 5950x",128,4000,500,297.75,1.68,298.44,Warm,-,gpu02,-
+LLaMA 3.1 8B,fp16,"1x Tesla P40 24GB",1x Xeon E5-2680 v4,128,4000,229,14.26,16.06,38.33,-,135,nn01,https://t.me/evilfreelancer_chat/73576
+LLaMA 3.1 8B,q4_0,"1x Tesla P40 24GB",1x Xeon E5-2680 v4,128,4000,345,8.39,41.14,8.54,-,135,nn01,https://t.me/evilfreelancer_chat/73622
+LLaMA 3.1 8B,q4_0,"1x Tesla P40 24GB",1x Xeon E5-2680 v4,128,4000,225,5.07,44.39,7.74,-,250,nn01,https://t.me/evilfreelancer_chat/73668
+LLaMA 3.1 8B,q4_0,1x RTX 4060 16GB,1x Intel i7,16,4000,471,10.15,46.40,15.33,-,-,sn01,https://t.me/evilfreelancer_chat/73684
+Aya 35B,q4_K_M,"1x Tesla P40 24GB",1x Xeon E5-2680 v4,128,200,300,30.32,9.90,39.38,-,-,nn01,https://t.me/evilfreelancer_chat/73749
+Aya 35B,q4_K_M,3x RTX 4060 16GB,2х Xeon E5-2690 v1,128,4000,327,28.23,11.59,38.81,Cold,-,sn02,https://t.me/evilfreelancer_chat/73748
+Aya 35B,q4_K_M,3x RTX 4060 16GB,2х Xeon E5-2690 v1,128,4000,324,27.93,11.60,28.22,Warm,-,sn02,https://t.me/evilfreelancer_chat/73748
+Aya 35B,q4_K_M,3x RTX 4060 16GB,2х Xeon E5-2690 v1,128,200,307,26.39,11.63,45.27,-,-,sn02,https://t.me/evilfreelancer_chat/73762
+Aya 35B,q4_K_M,"1x RTX 4090 24GB","1x Ryzen 9 5950x",128,200,325,8.46,38.44,13.19,Cold,-,gpu02,https://t.me/evilfreelancer_chat/73763
+LLaMA 3.1 70B,q4_0,1x RTX 8000 48GB,1x i9-13900KF,-,-,-,-,13.1,-,-,-,mn1,https://t.me/evilfreelancer_chat/74682
+LLaMA 3.1 8B,q4_0,1x RTX 8000 48GB,1x i9-13900KF,-,-,-,-,90,-,-,-,mn1,https://t.me/evilfreelancer_chat/74682
+Mistral Small 22B,q4_0,1x RTX 4060 16GB,1x Intel i7,16,200,500,24.28,20.59,29.88,Cold,-,sn01,-
+Mistral Small 22B,q4_0,1x RTX 4060 16GB,1x Intel i7,16,200,500,24.22,20.63,24.42,Warm,-,sn01,-
+Mistral Small 22B,q4_0,1x RTX 4090 24GB,1x Ryzen 9 5950x,128,200,500,8.24,60.63,10.16,Cold,-,gpu02,https://t.me/evilfreelancer_chat/75209
+Mistral Small 22B,q4_0,1x RTX 4090 24GB,1x Ryzen 9 5950x,128,200,500,8.24,60.6,8.36,Warm,-,gpu02,https://t.me/evilfreelancer_chat/75209
+Mixtral 8x7B,q4_0,3x RTX 4060 16GB,2х Xeon E5-2690 v1,128,200,367,11.77,31.16,119.34,Cold,-,sn02,https://t.me/evilfreelancer_chat/75228
+Mixtral 8x7B,q4_0,3x RTX 4060 16GB,2х Xeon E5-2690 v1,128,200,471,15.09,31.19,15.28,Warm,-,sn02,https://t.me/evilfreelancer_chat/75228
+Mixtral 8x7B,q4_0,1x RTX 4090 24GB,1x Ryzen 9 5950x,128,200,313,15.2,20.58,20.11,Cold,-,gpu02,-
+Mixtral 8x7B,q4_0,1x RTX 4090 24GB,1x Ryzen 9 5950x,128,200,500,24.42,20.47,24.76,Warm,-,gpu02,-
+LLaMA 3.1 70B,q8_0,2x RTX 8000 48GB,1x i9-13900KF,-,-,-,-,7,-,-,-,mn1,https://t.me/evilfreelancer_chat/75552
+Mistral Small 22B,q4_0,1x RTX 8000 48GB,1x i9-13900KF,-,-,-,-,37,-,-,-,mn1,https://t.me/evilfreelancer_chat/75557
+LLaMA 3.1 70B,q8_0,4x RTX 4090 24GB,-,-,-,-,-,11,-,-,-,mn2,https://t.me/evilfreelancer_chat/75724
+LLaMA 3.1 8B,fp16,4x RTX 4090 24GB,-,-,-,-,-,51,-,-,-,mn2,https://t.me/evilfreelancer_chat/75741

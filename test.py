@@ -12,18 +12,30 @@ num_ctx = 4000
 
 start = timeit.default_timer()
 prompt = "С какой периодичностью происходит ледниковый период"
-result = requests.post('http://localhost:11434/api/generate', json={'model': MODEL, "options":{ "seed": 123,"num_predict":500,"temperature": 0,"num_ctx": 4000}, "keep_alive":"10m", "prompt":prompt, "stream": False}).content
+result = requests.post(
+    'http://gpu02:11434/api/generate',
+    json={
+        'model': MODEL,
+        "options": {
+            "seed": 123,
+            "num_predict": 500,
+            "temperature": 0,
+            "num_ctx": num_ctx
+        },
+        "keep_alive": "10m", "prompt": prompt,
+        "stream": False
+    }
+).content
 a = json.loads(result)
+nanoseconds = a['eval_duration']  # 5 billion nanoseconds
+seconds = nanoseconds / 1_000_000_000
+end = timeit.default_timer()
 
 print(a['response'])
-print("Всего токенов: ", a['eval_count'])
-
-nanoseconds = a['eval_duration']  # 5 billion nanoseconds
-
-seconds = nanoseconds / 1_000_000_000
-
-print("Длительность: ", seconds)  # Output: 5.0
-print("T/s - ", a['eval_count'] / seconds)
-
-end = timeit.default_timer()
-print(f"Time to retrieve response: {end - start}")
+print()
+print(f"Модель: {MODEL}")
+print(f"Размер контекста: {num_ctx}")
+print(f"Всего токенов: {a['eval_count']}")
+print(f"Длительность: {seconds}")
+print(f"Токенов в секунду: {a['eval_count'] / seconds}")
+print(f"Время до получения ответа: {end - start}")

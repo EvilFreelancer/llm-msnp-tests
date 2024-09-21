@@ -34,3 +34,19 @@ mistral-small:22b-instruct-2409,q4_0,1x RTX 8000 48GB,1x i9-13900KF,-,-,-,-,37,-
 llama3.1:70b-instruct,q8_0,4x RTX 4090 24GB,-,-,-,-,-,11,-,-,-,mn2,https://t.me/evilfreelancer_chat/75724
 llama3.1:8b-instruct,fp16,4x RTX 4090 24GB,-,-,-,-,-,51,-,-,-,mn2,https://t.me/evilfreelancer_chat/75741
 llama3.1:8b-instruct,q4_0,-,1x Xeon E5-2680 v4,-,-,238,38.3,6.21,38.59,Warm,-,nn01,https://t.me/evilfreelancer_chat/75771
+llama3.1:8b-instruct,q4_0,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,4000,275,2.55,107.8,5.21,-,-,tig1,https://t.me/evilfreelancer_chat/75772
+llama3.1:8b-instruct,fp16,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,4000,229,5.05,45.31,10.17,-,-,tig1,https://t.me/evilfreelancer_chat/75772
+llama3.1:70b-instruct,q4_0,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,4000,496,26.25,18.89,37.34,-,-,tig1,https://t.me/evilfreelancer_chat/75772
+aya:35b-23,q4_K_M,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,4000,368,11.34,32.44,20.14,-,-,tig1,https://t.me/evilfreelancer_chat/75772
+llama3.1:8b-instruct,q4_0,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,200,260,2.35,110.41,4.82,-,-,tig1,https://t.me/evilfreelancer_chat/75779
+llama3.1:8b-instruct,fp16,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,200,242,5.3,45.64,10.39,-,-,tig1,https://t.me/evilfreelancer_chat/75779
+llama3.1:70b-instruct,q4_0,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,200,354,18.65,18.97,31.69,-,-,tig1,https://t.me/evilfreelancer_chat/75779
+aya:35b-23,q4_K_M,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",1x Threadripper 1920X,-,200,321,9.54,33.63,18.58,-,-,tig1,https://t.me/evilfreelancer_chat/75779

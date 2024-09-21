@@ -10,3 +10,5 @@ sn01,1x Intel i7,16,1x RTX 4060 16GB,-,-,-
 sn02,2х Xeon E5-2690 v1,128,3х RTX 4060 16GB,-,-,-
 mn1,1x i9-13900KF,-,1x RTX 8000 48GB,-,-,-
 mn2,-,-,4x RTX 4090 24GB,-,-,-
+tig1,1x Threadripper 1920X,-,"1x RTX 3090 Ti 24GB
+1x RTX 3090 24GB",-,-,-

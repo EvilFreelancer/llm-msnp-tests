@@ -29,7 +29,7 @@ for MODEL in MODELS:
 
     # Make API request
     result = requests.post(
-        'http://gpu02:11434/api/generate',
+        'http://localhost:11434/api/generate',
         json={
             'model': MODEL,
             "options": {

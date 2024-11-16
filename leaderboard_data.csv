@@ -51,3 +51,4 @@ llama3.1:70b-instruct,q4_0,"1x RTX 3090 Ti 24GB
 aya:35b-23,q4_K_M,"1x RTX 3090 Ti 24GB
 1x RTX 3090 24GB",1x Threadripper 1920X,-,200,321,9.54,33.63,18.58,-,-,tig1,https://t.me/evilfreelancer_chat/75779
 llama3.1:8b-instruct,q4_0,1x RX 7900 XTX 24GB,-,-,200,500,5.47,91.30,11.36,-,-,fp1,https://t.me/evilfreelancer_chat/76808
+llama3.1:8b-instruct,q4_0,5x GTX 1060 6GB,1x i5-4570,8,200,244,9.4,25.94,19.38,-,-,sh1,https://t.me/evilfreelancer_chat/81926

@@ -1,4 +1,4 @@
-Server Name,CPU,RAM (GB),GPU(s),Storage,Motherboard,PSU (W)
+Server Name,CPU(s),RAM (GB),GPU(s),Storage,Motherboard,PSU (W)
 nn01,1x Xeon E5-2680 v4,128,"1x Tesla P40 24GB
 1x AMD RX580 8GB","2 x NVMe 2TB 970 EVO
 6 x SSD
@@ -14,3 +14,4 @@ tig1,1x Threadripper 1920X,-,"1x RTX 3090 Ti 24GB
 1x RTX 3090 24GB",-,-,-
 fp1,-,-,1x RX 7900 XTX 24GB,-,-,-
 sh1,1x i5-4570,8,5x GTX 1060 6GB,-,ASRock H81 Pro BTC R2.0,-
+fp2,-,-,1x Intel Arc A770 16GB,-,-,-

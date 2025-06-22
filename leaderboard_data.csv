@@ -74,7 +74,7 @@ llama3.1:8b-instruct,q4_0,"1x Intel Arc A770 16GB",-,-,200,372,5.74311,64.7732,1
 llama3.1:8b-instruct,q4_0,"1x Intel Arc A770 16GB",-,-,4000,500,7.89941,63.2959,19.4269,-,-,fp2,https://t.me/c/1564516454/161486,-
 llama3.1:8b-instruct,q4_K_M,"1x Intel Arc A770 16GB",-,-,200,500,8.15532,61.3097,17.7278,-,-,fp2,https://t.me/c/1564516454/161486,-
 llama3.1:8b-instruct,q4_K_M,"1x Intel Arc A770 16GB",-,-,4000,348,5.67623,61.3083,15.4789,-,-,fp2,https://t.me/c/1564516454/161486,-
-llama3.1:70b-instruct,q4_0,"2x Intel Arc A770 16GB",-,-,200,500,54.4203,9.18775,144.996,-,-,fp2,https://t.me/c/1564516454/161510,"load_tensors:        SYCL0 model buffer size = 12394.69 MiB
+llama3.1:70b-instruct,q4_0,3x Intel Arc A770 16GB,-,-,200,500,54.4203,9.18775,144.996,-,-,fp2,https://t.me/c/1564516454/161510,"load_tensors:        SYCL0 model buffer size = 12394.69 MiB
 load_tensors:        SYCL1 model buffer size = 12394.69 MiB
 load_tensors:        SYCL2 model buffer size = 12757.61 MiB"
 llama3.1:8b-instruct,q8_0,"1x Intel Arc A770 16GB",-,-,200,242,5.9856,40.4304,21.3258,-,-,fp2,https://t.me/c/1564516454/161511,-

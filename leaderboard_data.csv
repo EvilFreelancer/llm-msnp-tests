@@ -64,3 +64,18 @@ llama3.1:8b-instruct,q4_0,1x Intel Arc A770 16GB,-,-,4000,500,8.77687,56.9679,20
 ipex-llm (sycl)
 bigdl-core-cpp 2.7.0b20250519
 ipex-llm 2.3.0b20250519"
+llama3.1:8b-instruct,q4_K_M,"1x RTX 5060Ti 16GB",-,-,200,23,0.407316,56.4672,3.6409,-,-,yt1,https://t.me/c/1564516454/161465,Без Flash Attention
+llama3.1:8b-instruct,q4_0,"1x RTX 5060Ti 16GB",-,-,200,251,4.03426,62.2171,7.81242,-,-,yt1,https://t.me/c/1564516454/161465,Без Flash Attention
+llama3.1:8b-instruct,q8_0,"1x RTX 5060Ti 16GB",-,-,200,244,5.9729,40.8512,10.5656,-,-,yt1,https://t.me/c/1564516454/161465,Без Flash Attention
+llama3.1:8b-instruct,q4_K_M,"1x RTX 5060Ti 16GB",-,-,200,379,6.28207,60.3305,9.85483,-,-,yt1,https://t.me/c/1564516454/161469,Flash Attention включено
+llama3.1:8b-instruct,q4_0,"1x RTX 5060Ti 16GB",-,-,200,407,6.05915,67.1711,10.0823,-,-,yt1,https://t.me/c/1564516454/161469,Flash Attention включено
+llama3.1:8b-instruct,q8_0,"1x RTX 5060Ti 16GB",-,-,200,242,5.83086,41.5033,10.7458,-,-,yt1,https://t.me/c/1564516454/161469,Flash Attention включено
+llama3.1:8b-instruct,q4_0,"1x Intel Arc A770 16GB",-,-,200,372,5.74311,64.7732,17.0155,-,-,fp2,https://t.me/c/1564516454/161486,-
+llama3.1:8b-instruct,q4_0,"1x Intel Arc A770 16GB",-,-,4000,500,7.89941,63.2959,19.4269,-,-,fp2,https://t.me/c/1564516454/161486,-
+llama3.1:8b-instruct,q4_K_M,"1x Intel Arc A770 16GB",-,-,200,500,8.15532,61.3097,17.7278,-,-,fp2,https://t.me/c/1564516454/161486,-
+llama3.1:8b-instruct,q4_K_M,"1x Intel Arc A770 16GB",-,-,4000,348,5.67623,61.3083,15.4789,-,-,fp2,https://t.me/c/1564516454/161486,-
+llama3.1:70b-instruct,q4_0,"2x Intel Arc A770 16GB",-,-,200,500,54.4203,9.18775,144.996,-,-,fp2,https://t.me/c/1564516454/161510,"load_tensors:        SYCL0 model buffer size = 12394.69 MiB
+load_tensors:        SYCL1 model buffer size = 12394.69 MiB
+load_tensors:        SYCL2 model buffer size = 12757.61 MiB"
+llama3.1:8b-instruct,q8_0,"1x Intel Arc A770 16GB",-,-,200,242,5.9856,40.4304,21.3258,-,-,fp2,https://t.me/c/1564516454/161511,-
+llama3.1:8b-instruct,q8_0,"1x Intel Arc A770 16GB",-,-,4000,229,5.66146,40.4489,21.2253,-,-,fp2,https://t.me/c/1564516454/161511,-
